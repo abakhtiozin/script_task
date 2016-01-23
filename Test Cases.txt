@@ -1,0 +1,20 @@
+CASE #1
+1. Today is Business day and Target folder is empty
+2. Run script
+Expected result: target folder contains Business day image
+
+CASE #2
+1. Today is Business day and Target folder already contains Business Day image
+2. Run script
+Expected result: target folder contains Business day image
+
+CASE #3
+1. Today is Business day and Target folder already contains Weekend Day image
+2. Run script
+Expected result: target folder contains Business day image
+
+CASE #4
+1. Today is Weekend day and Target folder already contains Business Day image
+2. Run script
+Expected result: target folder contains Weekend day image
+
